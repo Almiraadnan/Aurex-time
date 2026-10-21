@@ -1,0 +1,115 @@
+*{
+    box-sizing:border-box}
+
+body{
+    margin:0;
+    background:#101114;
+    color:#f7f4ec;
+    font-family:Arial,Helvetica,sans-serif;
+    line-height:1.65
+}
+
+.wrap{
+    max-width:650px;
+    margin:auto;
+    padding:18px 13px 36px;
+}
+
+.card{background:#191b20;
+    border:1px solid #353239;
+    border-radius:18px;
+    padding:22px 18px;
+    box-shadow:0 12px 35px #0005
+}
+
+.intro{
+    border:1px solid #69552e;
+    background:#211d15;
+    border-radius:14px;
+    padding:16px;
+    margin-bottom:18px;
+    text-align:center
+}
+
+.brand{
+    color:#d7b46a;
+    font-size:29px;
+    font-weight:800;
+    letter-spacing:1px;
+    margin:0 0 10px;
+}
+
+h1{
+    font-size:22px;
+    margin:0 0 8px}
+    
+p{
+    margin:8px 0;
+    color:#c3c0b7
+}
+
+.welcome{
+    color:#f7f4ec;
+    font-size:15px
+}
+
+.note{
+    background:#131417;
+    border-left:3px solid #d7b46a;
+    padding:13px 14px;
+    border-radius:10px;
+    margin-top:18px
+}
+
+.note strong{
+    color:#d7b46a;
+    font-size:17px
+} 
+
+label{
+    display:block;
+    margin:14px 0 5px;
+    font-weight:700
+}
+
+input,textarea{width:100%;
+    padding:12px 13px;
+    border:1px solid #383a40;
+    border-radius:10px;
+    background:#101114;
+    color:#f7f4ec;
+    font:inherit;
+    text-align:left}
+
+input[type=file]{
+    font-size:14px
+}
+input:focus,textarea:focus{
+    outline:2px solid #8e743f
+}
+.hint{
+    font-size:13px;
+    color:#aaa69d;
+    margin-top:4px
+} 
+button{
+    width:100%;
+    border:0;
+    border-radius:11px;
+    background:#d7b46a;
+    color:#17130a;
+    font-size:16px;
+    font-weight:800;
+    padding:13px;
+    margin-top:22px;
+    cursor:pointer
+}
+.foot{
+    text-align:center;
+    font-size:12px;
+    color:#96928a;
+    margin-top:15px
+}
+.required{
+    color:#f0c46b
+}

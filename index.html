@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurex Time - Order Form</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body><div class="wrap">
+    <div class="card">
+
+      <div class="intro">
+        <div class="brand">Aurex Time</div>
+
+        <h1>Assalam-o-Alaikum!</h1>
+
+        <p class="welcome">
+          Your trust is our responsibility. At Aurex Time,
+          our mission is to provide quality products and a
+          smooth shopping experience that lives up to your
+          trust. Thank you for choosing us.
+        </p>
+      </div>
+
+      <h1 style="text-align:center">
+        Customer Order Form
+      </h1>
+
+      <p>
+        Please enter your details carefully so we can confirm
+        and deliver your order smoothly.
+      </p>
+
+      <form id="orderForm">
+
+        <label for="customerName">
+          Full Name <span class="required">*</span>
+        </label>
+        <input
+          id="customerName"
+          autocomplete="name"
+          required
+          placeholder="Enter your full name"
+        >
+
+        <label for="phone">
+          Mobile / WhatsApp Number
+          <span class="required">*</span>
+        </label>
+        <input
+          id="phone"
+          type="tel"
+          autocomplete="tel"
+          required
+          placeholder="03XXXXXXXXX"
+        >
+
+        <label for="address">
+          Complete Address <span class="required">*</span>
+        </label>
+        <textarea
+          id="address"
+          rows="3"
+          autocomplete="street-address"
+          required
+          placeholder="House number, street, area and nearby landmark"
+        ></textarea>
+
+        <label for="city">
+          City <span class="required">*</span>
+        </label>
+        <input
+          id="city"
+          autocomplete="address-level2"
+          required
+          placeholder="Enter your city"
+        >
+
+        <label for="area">
+          Area / Postal Code (Optional)
+        </label>
+        <input
+          id="area"
+          placeholder="Enter area or postal code"
+        >
+
+        <label for="product">
+          Product Name (Optional)
+        </label>
+        <input
+          id="product"
+          placeholder="Enter product name, if known"
+        >
+
+        <label for="photo">
+          Upload Product Picture (Optional)
+        </label>
+        <input
+          id="photo"
+          type="file"
+          accept="image/*"
+        >
+
+        <div class="hint">
+          Uploading a picture is optional. If you select one,
+          please attach it separately in WhatsApp after the
+          chat opens.
+        </div>
+
+        <div class="note">
+          <strong>Zaroori Hidayaat (Note)</strong>
+
+          <p>
+            • Parcel open karte waqt please ek continuous
+            video banayein, taake agar kisi wajah se product
+            damaged mile ya koi issue ho, to video proof ke
+            saath return/complaint ki request ki ja sake.
+          </p>
+
+          <p>
+            • Aap ka order form fill karne ke baad 2 se 3
+            ghanton mein order confirm ho jayega. Order
+            confirm hote hi 3 se 5 working days mein aap ka
+            parcel receive ho jayega.
+          </p>
+
+          <p>
+            • Parcel receive hone ke baad hamein apna review
+            lazmi dein. Aap ka review hamare liye achievement
+            hai aur doosre customers ka bharosa barhane mein
+            madad karta hai.
+          </p>
+        </div>
+
+        <button type="submit" id="orderForm">
+          Send Order Details on WhatsApp
+        </button>
+
+      </form>
+
+      <div class="foot">
+        Aurex Time · Thank you for your trust
+      </div>
+
+    </div>
+  </div>
+  </body>
+<script>
+</script></body></html>
